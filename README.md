@@ -24,7 +24,8 @@ Clone o repositório
 composer install
 
 ## Configure o ambiente
-
+variáveis de acesso ao banco de dados;
+variáveis de acesso ao s3;
 
 ## 🏗️ Arquitetura e Padrões de Design
 
