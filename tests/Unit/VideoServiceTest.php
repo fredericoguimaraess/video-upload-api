@@ -4,7 +4,7 @@ namespace Tests\Unit;
 
 use App\Models\Video;
 use App\Repositories\VideoRepositoryInterface;
-use App\Services\S3Service;
+use App\Services\StorageService;
 use App\Services\VideoProcessorService;
 use App\Services\VideoService;
 use Illuminate\Http\UploadedFile;
@@ -16,7 +16,7 @@ class VideoServiceTest extends TestCase
     public function test_upload_video_creates_video_record(): void
     {
         $mockRepository = Mockery::mock(VideoRepositoryInterface::class);
-        $mockS3Service = Mockery::mock(S3Service::class);
+        $mockS3Service = Mockery::mock(StorageService::class);
         $mockProcessor = Mockery::mock(VideoProcessorService::class);
 
         $file = UploadedFile::fake()->create('test.mp4', 1000, 'video/mp4');

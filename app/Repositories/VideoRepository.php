@@ -23,7 +23,7 @@ class VideoRepository implements VideoRepositoryInterface
         return $video->fresh();
     }
 
-    public function getAllPaginated(int $perPage = 15)
+    public function getAllPaginated(array $filters = [], int $perPage = 15)
     {
         return Video::orderBy('created_at', 'desc')->paginate($perPage);
     }

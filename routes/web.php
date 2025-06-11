@@ -1,5 +1,4 @@
 <?php
-// routes/api.php
 
 use App\Http\Controllers\VideoController;
 use Illuminate\Support\Facades\Route;
