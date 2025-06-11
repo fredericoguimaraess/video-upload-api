@@ -18,7 +18,7 @@ Sistema de upload e processamento de vídeos desenvolvido em Laravel que inclui:
 - (Opcional) RabbitMQ/Redis para filas
 
 ## Instalação
-# Clone o repositório
+Clone o repositório
 
 ## Instale as dependências
 composer install
