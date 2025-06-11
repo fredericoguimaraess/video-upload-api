@@ -7,9 +7,9 @@ Sistema de upload e processamento de vídeos desenvolvido em Laravel que inclui:
 - Extração de metadados com FFmpeg
 - Comunicação assíncrona via filas
 
-## 🚀 Começando
+# 🚀 Sobre a aplicação
 
-### Pré-requisitos
+## Pré-requisitos
 - PHP 8.4.1+
 - Composer 2.0+
 - MySQL 8.0+
@@ -17,13 +17,13 @@ Sistema de upload e processamento de vídeos desenvolvido em Laravel que inclui:
 - Serviço S3 ou MinIO
 - (Opcional) RabbitMQ/Redis para filas
 
-### Instalação
+## Instalação
 # Clone o repositório
 
-# Instale as dependências
+## Instale as dependências
 composer install
 
-# Configure o ambiente
+## Configure o ambiente
 
 
 ## 🏗️ Arquitetura e Padrões de Design
